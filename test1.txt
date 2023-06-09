@@ -1,0 +1,3 @@
+SELECT *
+from Customers
+left join Orders on Customers.CustomerId = Orders.OrderID;
